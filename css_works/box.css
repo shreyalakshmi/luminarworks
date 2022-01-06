@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Irish+Grover&display=swap');
+#b1{color: rgb(247, 229, 229);
+background-color: black;
+height: 300px;
+/* height and width represented as pixels */
+width: 500px;
+border: cadetblue solid 2px;
+font-size:larger;
+font-family:'Ceviche One', cursive; ;
+}
+#b2{color: cornsilk;
+background-color: red;
+border: royalblue solid 2px;
+font-size: xx-large;
+font-family: 'Irish Grover', cursive;;
+}

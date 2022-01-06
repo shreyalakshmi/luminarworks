@@ -1,0 +1,16 @@
+div{
+    height: 2211px;
+    width: 20%;
+    background-color: cornflowerblue;
+    border: solid black 2px;
+    float: left;
+    font-size: xx-large;
+}
+div img{
+    
+    width: 70%;
+    margin-left: 150px;
+}
+h1{
+    text-align: center;
+}

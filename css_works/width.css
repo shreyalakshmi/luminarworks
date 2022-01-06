@@ -1,0 +1,13 @@
+div{
+    height: 402px;
+    width: 30%;
+    background-color: burlywood;
+    border: solid black 2px;
+    float: left;
+}
+img{
+    width: 50%;
+}
+div img{
+    width: 100%;
+}

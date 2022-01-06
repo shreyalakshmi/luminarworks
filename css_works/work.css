@@ -1,0 +1,14 @@
+div{
+    height: 2369px;
+    width: 24%;
+    background-color: blueviolet;
+    border: solid black 5px;
+    float: left;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    
+}
+div img{
+    width: 50%;
+}

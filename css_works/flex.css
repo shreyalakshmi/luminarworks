@@ -1,0 +1,17 @@
+.row{height: 500px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* right */
+    /* left  space evenly */
+    /* space between */
+}
+.col{
+
+    height: 400px;
+    width: 100px;
+    background-color: brown;
+    border: black solid 2px;
+}

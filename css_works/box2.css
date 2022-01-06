@@ -1,0 +1,9 @@
+div{
+    background-color: cadetblue;
+    width:200px;
+    height:300px;
+    margin-left: 100px;
+    /* to move box towards left */
+    margin-top: 50px;
+    /* to move from top */
+}

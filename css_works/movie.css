@@ -1,0 +1,36 @@
+body{ text-align: center;
+font-size: xx-large;
+color: white;
+background-color: black;}
+
+div{
+    height: 2322px;
+    width: 17%;
+    background-color: black;
+    border: solid black 2px;
+    float: left;
+    font-size: 32px;
+    text-align: left;
+    
+    padding: 75px;
+color: white;
+
+
+}
+h1{
+    text-align: center;
+}
+div img{
+    width: 109%;
+}
+#a1{
+    height: 57px;
+    width: 96%;
+    float: left;
+    font-size: xx-large;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    border: solid white 2px;
+    margin-top: 10px;
+}

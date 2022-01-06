@@ -1,0 +1,7 @@
+h1{color: black;}
+/* tag selector(color of all the heading changes) */
+#a1{color: lightblue;}
+#a2{color: pink;}
+/* id selector (selecting specific heading using id) */
+.c1{color: rebeccapurple;}
+/* class selector(same as id) */

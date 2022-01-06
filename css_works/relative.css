@@ -1,0 +1,41 @@
+.row{
+    height: 500px;
+    width:500px ;
+    border: solid black 2px;
+    background-color: blue;
+    position: relative;
+}
+
+.col{
+    height: 200px;
+    width: 100px;
+    border: solid 2px black;
+}
+.col-1{
+    background-color: brown;
+    position: absolute;
+}
+.col-2{
+    background-color: burlywood;
+    position: absolute;
+    left: 105px;
+
+}
+.col-3{
+background-color: cadetblue;
+position: absolute;
+left: 210px;
+
+}
+.col-4{
+    background-color: chartreuse;
+    position: absolute;
+    left: 310px;
+}
+body{
+
+    background-image:url(./images/3320520.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/ae7fd01edb.js" crossorigin="anonymous"></script>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+    h3 {
+      font-family: 'Kalam', cursive;
+    }
+
+    nav {
+      background-color: rgb(167, 152, 182);
+    }
+
+    #bar {
+      margin-right: 10px;
+    }
+
+    #imgs {
+      margin-left: 80px;
+      height: 600px;
+      width: 90%;
+    }
+
+    body {
+      height: 2000px;
+    }
+   #a1:hover{background-color:  rgb(167, 152, 182);}
+   #a2:hover{background-color:  rgb(167, 152, 182);}
+   #last:hover{background-color:  rgb(167, 152, 182);}
+
+  </style>
+
+</head>
+
+<body style="background-color: black;">
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <i class="fas fa-bars" id="bar" style=" color: black;"></i>
+        <i class="far fa-user" style="color: black;"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: black;">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+              Categories
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="color: black;">
+              <li><a class="dropdown-item" href="#">DOGS</a></li>
+              <li><a class="dropdown-item" href="#">CATS</a></li>
+              <li><a class="dropdown-item" href="#">FISH</a></li>
+              <li><a class="dropdown-item" href="#">BIRDS</a></li>
+
+            </ul>
+          </li>
+          <h3 class="navbar-nav  mb-2 mb-lg-0 " style="text-align: center;margin-left: 362px;"><i
+              class="fas fa-paw"></i>PAW WORLD</h3>
+        </ul>
+
+        <i class="fas fa-map-marker-alt" style="display: flex; margin-right: 7px;"></i>
+        <a class="nav-link active" href="#" style="color: black;"><i class="fas fa-shopping-cart"></i></a>
+        <form class="d-flex">
+
+          <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search" style="color: black;">
+          <button id="button" class="btn btn-outline-dark" type="submit" style="border-radius: 500px;">Search</button>
+
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar ends -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+ 
+    </div>
+    <div class="carousel-inner" id="imgs">
+      <div class="carousel-item active w-100" data-bs-interval="1003">
+        <img src="./img/dog1.jpg" class="d-block w-100" alt="no image">
+      </div>
+      <div class="carousel-item w-100" data-bs-interval="1003">
+        <img src="./img/dog2.jpg" class="d-block w-100" alt="no image">
+      </div>
+      <div class="carousel-item w-100" data-bs-interval="1003">
+        <img src="./img/cat1.jpg" class="d-block w-100" alt="no image">
+      </div>
+      <div class="carousel-item w-100" data-bs-interval="1003">
+        <img src="./img/bird1.jpg" class="d-block w-100" alt="no image">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br><br><br>
+  <!-- carousel ends -->
+
+  <div style="display: flex;">
+    <div
+      style="border: white 1px solid; color: white; width: 30%; margin-left: 250px; height: 200px;text-align: center;border-radius: 40px;">
+      <i class="fas fa-car fa-3x" style="margin-top: 10px;"></i><br><br>
+      <h4>Curbside Pickup</h4>
+      <p>Order online, drive up, <br> check in and pick up</p>
+    </div>
+    <div
+      style="border: white 1px solid; color: white; width: 30%; margin-left: 111px;border-radius: 40px;text-align: center;height: 200px;">
+      <i class="fas fa-truck fa-3x" style="margin-top: 10px;"></i><br><br>
+<h4> Ship to Home</h4>
+<p>FREE shiping on orders over Rs.200</p>  
+</div>
+</div>
+<br><br>
+
+
+<div style="display: flex;">
+  <div
+    style="border: white 1px solid; color: white; width: 30%; margin-left: 250px; height: 200px;text-align: center;border-radius: 40px;">
+    <i class="far fa-calendar-alt fa-3x" style="margin-top: 10px;"></i> <br><br>
+    <h4>Curbside Pickup</h4>
+    <p>Order online, drive up, <br> check in and pick up</p>
+  </div>
+  <div
+    style="border: white 1px solid; color: white; width: 30%; margin-left: 111px;border-radius: 40px;text-align: center;height: 200px;">
+    <i class="fas fa-door-open fa-3x" style="margin-top: 10px;"></i> <br><br>
+<h4>Same-Day Delivery</h4>  
+</div>
+</div><br><br>
+<!-- ends -->
+<h2 style="text-align: center; color: white;">SHOP BY PETS</h2><br><br><br>
+
+<div class="row" style="text-align: center;">
+  <div class="col-6" style="height: 100px; width: 30%;margin-left:271px; ">
+    <img src="./img/dog1.jpg" alt="" style="width: 100%;">
+<a id="a1" href="" style="color: white; margin-left: -32px;">DOGS</a>  
+
+</div>
+  <div class="col-6" style="height: 100px; width: 30%; ">
+    <img src="./img/cat1.jpg" alt="" style="width: 90%;height: 293px; margin-left: 90px;">
+<a id="a1" href="" style="color: white; margin-left: 140px;">CATS</a>
+  </div>
+</div>
+<!-- first row ends -->
+<br><br>
+
+<div class="row" style="text-align: center; margin-top: 207px;">
+  <div class="col-6" style="height: 100px; width: 30%;margin-left:271px;">
+<img src="./img/Types-of-Fish-Species-In-World-and-Their-Facts.jpg" alt=""  style="width: 100%; height: 292px;">
+<a id="a1" href="" style="color: white; margin-left: -32px;">FISHES</a>  
+</div>
+ <div class="col-6"  style="height: 100px; width: 30%; ">
+    <img src="./img/1200.jpg" alt="" style="width: 90%;height: 293px; margin-left: 90px;">
+    <a id="a1" href="" style="color: white; margin-left: 149px;">BIRDS</a>  
+  </div>
+</div><br><br><br>
+<!-- second row ends -->
+
+
+<div style="margin-top: 199px; color: white;">
+  <h2 style="text-align: center;">SERVICES</h2>
+  <div class="row" style="margin-top: 56px; text-align: center;">
+
+    <div class="col-6">
+      <i class="fas fa-cut fa-3x"></i><br><br>
+  <h5>
+    GROOMING
+  </h5>  
+  </div>
+
+  <div class="col-6">
+    <i class="fas fa-home fa-3x"></i><br><br>
+    <h5> DAYCARE</h5>  
+</div>
+  </div>
+  <!-- first row ends -->
+
+  <div class="row" style="margin-top: 100px; text-align: center;">
+
+    <div class="col-6">
+      <i class="fas fa-bone fa-3x"></i></i><br><br>
+  <h5>
+    TRAINING
+  </h5>  
+  </div>
+
+  <div class="col-6">
+    <i class="fas fa-briefcase-medical fa-3x"></i><br><br>
+    <h5> MEDICAL CARE</h5>  
+</div>
+  </div>
+</div>
+<!-- services ends -->
+<br><br><br><br><br>
+
+
+<div class="card" style="width: 20rem; text-align: center; align-items: center; margin-left: 610px;background-color: black; border: white 1px solid;">
+  <img src="./img/card dog.jpg" class="card-img-top" alt="...">
+  <div class="card-body" style="color: white;">
+    <h5 class="card-title">Sign Up. Earn points.</h5>
+    <p class="card-text">Receive Exclusive deals and offers while earning points.</p>
+    <a href="#" class="btn btn-primary" >Learn more</a>
+  </div>
+</div>
+<br><br><br><br>
+<!-- card ends -->
+<footer >
+<div style="display: flex;">
+  <div style="color: white; margin-left: 253px;">
+    <h3 style="text-align: center;">SIGN UP</h3>
+    <label for="mail"></label>
+    <input type="email" id="mail" placeholder="email"><br><br>
+    <label for="pass"></label>
+    <input type="password" id="pass" placeholder="password"><br><br>
+    <a href="#" class="btn btn-outline-light" style="margin-left: 55px;" >Submit</a>
+ </div>
+
+
+ <div style="margin-left:300px;">
+   <a href="" style="text-decoration: none; color: white;" id="a2">About</a><br>
+   <a href="" style="text-decoration: none;color: white;" id="a2">Careers</a><br>
+   <a href="" style="text-decoration: none;color: white;" id="a2">Pet charities</a><br>
+   <a href="" style="text-decoration: none;color: white;" id="a2">Help center</a>
+
+ </div>
+ <div  style="color: white;margin-left: 333px;">
+   <i id="last" class="fab fa-facebook fa-2x"></i><br><br>
+   <i  id="last"class="fab fa-whatsapp fa-2x"></i><br><br>
+   <i id="last"class="fab fa-instagram fa-2x"></i><br><br>
+   <i id="last" class="fab fa-twitter fa-2x"></i>
+</div>
+</div>
+<!-- last icon ends -->
+
+</footer>
+
+</body>
+
+</html>

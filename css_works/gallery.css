@@ -1,0 +1,7 @@
+div{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(88, 88, 207);
+    border: solid black 2px;
+    float: left;
+}

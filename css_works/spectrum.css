@@ -1,0 +1,97 @@
+body{background-color: black;}
+
+div{
+    height: 109px;
+    width: 100px;
+}
+h1{text-align: center;
+color: white;}
+
+#a1{background-color: rgb(61, 47, 47);
+margin-left: 551px;
+margin-top: 16px;}
+
+#a2{background-color: rgb(26, 77, 26);
+margin-left: 660px;
+margin-top: -109px;}
+
+    #a3{background-color: rgb(63, 155, 63);
+    margin-left: 769px;
+margin-top: -109px;}
+
+    #a4{background-color: green;
+    margin-left: 878px;
+margin-top: -109px;}
+    
+    #a5{background-color: white;
+    margin-left: 986px;
+margin-top:-109px;}
+
+
+#a6{background-color: orange;
+margin-left: 441px;
+margin-top: 51px;}
+
+#a7{background-color: rgb(245, 59, 59);
+margin-left: 552px;
+margin-top: -109px;}
+
+#a8{background-color: pink;
+margin-left: 661px;
+margin-top: -109px;}
+
+#a9{background-color:rgb(202, 82, 226);
+margin-left: 771px;
+margin-top: -109px;}
+
+#a10{background-color: rgb(69, 30, 114);
+margin-left: 880px;
+margin-top: -109px;}
+
+#a11{background-color: rgb(160, 60, 253);
+margin-left: 988px;
+margin-top: -109px;}
+
+#a12{background-color: rgb(75, 57, 57);
+margin-left: 1098px;
+margin-top: -109px;}
+
+
+
+#a13{background-color: rgb(126, 238, 176);
+margin-left: 328px;
+margin-top: 48px;}
+
+#a14{background-color: rgb(197, 197, 95);
+margin-left: 440px;
+margin-top: -109px;}
+
+#a15{background-color: rgb(177, 141, 75);
+margin-left: 550px;
+margin-top: -109px;}
+
+#a16{background-color: rgb(175, 49, 70);
+margin-left: 659px;
+margin-top: -109px;}
+
+#a17{background-color: rgb(66, 36, 1);
+margin-left: 769px;
+margin-top: -109px;}
+
+#a18{background-color: rgb(68, 209, 174);
+margin-left: 878px;
+margin-top: -109px;}
+
+#a19{background-color: rgb(46, 122, 46);
+margin-left: 987px;
+margin-top: -109px;}
+
+#a20{background-color: rgb(75, 56, 75);
+margin-left: 1097px;
+margin-top: -109px;}
+
+#a21{background-color: rgb(53, 22, 53);
+margin-left: 1207px;
+margin-top: -109px;}
+
+
